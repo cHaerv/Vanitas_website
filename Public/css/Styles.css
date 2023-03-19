@@ -4,16 +4,44 @@ body {
     background-size: cover;
 }
 .navbar-brand {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     position: absolute;
 }
 .navbar {
     font-size: 1.5rem;
     background-color: black;
-    opacity: 69%;
+    opacity: 85%;
     font-family: ubuntu;
     
 }
 .navbar-nav {
     margin: 0 auto;
 }
+.nav-item {
+    margin: 0 .5rem;
+}
+
+.icons-nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+.fa-brands {
+    transition: transform ease-in-out;
+}
+.fa-brands:hover {
+    transform: scale(1.2);
+}
+
+/* navbar dropdown on hover */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+@media all and (max-width: 992px) {
+    .navbar-brand { position: relative;}
+    .icons-nav {position: relative;}
+}
+
