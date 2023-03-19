@@ -1,4 +1,19 @@
 body {
     background-image: url("/images/backgroundFourK.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand {
+    font-size: 2rem;
+    position: absolute;
+}
+.navbar {
+    font-size: 1.5rem;
+    background-color: black;
+    opacity: 69%;
+    font-family: ubuntu;
     
+}
+.navbar-nav {
+    margin: 0 auto;
 }
