@@ -7,9 +7,22 @@ const path = require("path");
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.urlencoded());
 
+
+
+
 app.get("/", function(req, res) {
     res.sendFile(__dirname + "/home.html");
 });
+
+
+app.get("/shows.html", function (req, res) {
+    res.sendFile(__dirname + "/shows.html")
+})
+
+app.get("/contact.html", function (req, res) {
+    res.sendFile(__dirname + "/contact.html")
+})
+
 
 
 

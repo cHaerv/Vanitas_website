@@ -1,17 +1,17 @@
 body {
-    background-image: url("/images/backgroundFourK.png");
+    background-image: url("/images/websiteBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: ubuntu;
 }
+/* Navbar */
 .navbar-brand {
-    /* font-size: 2rem; */
     position: absolute;
 }
 .navbar {
     font-size: 1.5rem;
     background-color: black;
-    opacity: 85%;
-    font-family: ubuntu;
+    opacity: 0.85;
     
 }
 .navbar-nav {
@@ -45,3 +45,35 @@ body {
     .icons-nav {position: relative;}
 }
 
+/* home page */
+/* main {
+    text-align: center;
+}
+video {
+    width: 100%;
+    margin-top: 5rem;
+}
+h1 {
+    color: white;
+    font-size: 3rem;
+} */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+    opacity: 0.85;
+    color: white;
+    font-size: 1.5em;
+}
+.bottom-logo {
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+}
+.footer-text {
+    color: white;
+    padding: 1rem;
+}
