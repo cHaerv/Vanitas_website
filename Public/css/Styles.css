@@ -2,17 +2,21 @@ body {
     background-image: url("/images/websiteBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
     font-family: ubuntu;
 }
 /* Navbar */
-.navbar-brand {
-    position: absolute;
-}
+
 .navbar {
     font-size: 1.5rem;
     background-color: black;
     opacity: 0.85;
-    
+    z-index: 1;
+}
+.navbar-brand {
+    position: absolute;
 }
 .navbar-nav {
     margin: 0 auto;
@@ -45,19 +49,14 @@ body {
     .icons-nav {position: relative;}
 }
 
+
 /* home page */
+
 /* main {
-    text-align: center;
-}
-video {
-    width: 100%;
-    margin-top: 5rem;
-}
-h1 {
-    color: white;
-    font-size: 3rem;
+    flex: 1;
 } */
 
+/* footer */
 footer {
     position: absolute;
     width: 100%;
@@ -70,7 +69,6 @@ footer {
 }
 .bottom-logo {
     height: 5rem;
-    width: 5rem;
     margin: 1rem;
 }
 .footer-text {
