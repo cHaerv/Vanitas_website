@@ -1,4 +1,4 @@
-# Vanitas_website personal for the band to access.
+# Vanitas band's official Site
 
 install Nodemon if you have'nt already. 
 
