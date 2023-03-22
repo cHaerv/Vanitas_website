@@ -68,8 +68,14 @@ body {
 }
 video {
     height: 100%;
+    object-fit: cover;
+    max-width: 100vw;
 }
-
+.carousel-image {
+    height: 100%;
+    object-fit: cover;
+    max-width: 100vw;
+}
 
 
 /* footer */
