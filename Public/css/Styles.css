@@ -6,6 +6,8 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     font-family: ubuntu;
+    display: flex;
+    flex-direction: column;
 }
 /* Navbar */
 
@@ -52,15 +54,29 @@ body {
 
 /* home page */
 
-/* main {
-    flex: 1;
-} */
+
+#carousel-home {
+    flex-grow: 1;
+    display: flex;
+}
+.carousel-inner {
+    flex-grow: 1;
+}
+
+.carousel-item {
+    height: 100%;
+}
+video {
+    height: 100%;
+}
+
+
 
 /* footer */
 footer {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0; */
     background-color: black;
     text-align: center;
     opacity: 0.85;
