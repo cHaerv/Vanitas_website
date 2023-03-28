@@ -15,13 +15,17 @@ app.get("/", function(req, res) {
 });
 
 
-app.get("/shows.html", function (req, res) {
+app.get("/shows", function (req, res) {
     res.sendFile(__dirname + "/shows.html")
 })
 
-app.get("/contact.html", function (req, res) {
+app.get("/contact", function (req, res) {
     res.sendFile(__dirname + "/contact.html")
 })
+
+app.get("/videos", function(req, res) {
+    res.sendFile(__dirname + "/videos.html")
+});
 
 
 

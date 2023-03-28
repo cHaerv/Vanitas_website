@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanitas</title>
+    <title>Vanitas-Videos</title>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +47,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">Media</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Music</a></li>
+                            <li><a class="dropdown-item" href="/music">Music</a></li>
                             <li><a class="dropdown-item" href="/videos">Videos</a></li>
                         </ul>
                     </li>
@@ -104,29 +104,55 @@
         </div>
     </nav>
 
-
-    <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="9000">
-                <video autoplay muted loop src="/images/mvLoopCropped.mp4" type="video/mp4"
-                    class="carousel-image"></video>
-            </div>
-            <div class="carousel-item card" data-bs-interval="6000">
-                <div class="card-img-overlay">
-                    <button class="btn btn-outline-light btn-lg merch-button hidden">Order Merch</button>
-                </div>
-                <img src="/images/tShirtCarousel.png" class="carousel-image" alt="vanitas-merch">
+    <div class="container videos-container">
+        <div class="row" >
+            <div class="col">
+                <h1 class="videos-h1">Official Music Videos</h1>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="row">
+            <div class="col">
+                <iframe width="960" height="540" class="big-video" src="https://www.youtube.com/embed/AMM5gEn1yOM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <!-- <h2>Ghostly Coast</h2> -->
+                <iframe class="music-vids" width="560" height="315" src="https://www.youtube.com/embed/Yg5xm6LaesI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+                <div class="col">
+                    <!-- <h2></h2> -->
+                    <iframe class="music-vids" width="560" height="315" src="https://www.youtube.com/embed/QqK-9THBTE4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- <h2>Breaking illusions</h2> -->
+                <iframe class="music-vids" width="560" height="315" src="https://www.youtube.com/embed/Sqk-cvJ7E0Q"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <div class="col">
+                <iframe class="music-vids" width="560" height="315" src="https://www.youtube.com/embed/AMM5gEn1yOM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
+
+
 
 
     <footer>

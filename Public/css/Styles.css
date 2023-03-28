@@ -8,9 +8,11 @@ body {
     font-family: ubuntu;
     display: flex;
     flex-direction: column;
+    color: white;
 }
-/* Navbar */
 
+
+/* Navbar */
 .navbar {
     font-size: 1.5rem;
     background-color: black;
@@ -38,6 +40,9 @@ body {
 .fa-brands:hover {
     transform: scale(1.2);
 }
+ul {
+    list-style: none;
+}
 
 /* navbar dropdown on hover */
 @media all and (min-width: 992px) {
@@ -54,7 +59,6 @@ body {
 
 /* home page */
 
-
 #carousel-home {
     flex-grow: 1;
     display: flex;
@@ -62,27 +66,45 @@ body {
 .carousel-inner {
     flex-grow: 1;
 }
-
 .carousel-item {
     height: 100%;
-}
-video {
-    height: 100%;
-    object-fit: cover;
-    max-width: 100vw;
+    border: none;
 }
 .carousel-image {
     height: 100%;
     object-fit: cover;
     max-width: 100vw;
 }
+.card-img-overlay {
+    color: #b7d2d0;
+}
+.merch-button {
+    position: absolute;
+    bottom: 10%;
+    left: 13%;
+}
+
+/* videos */
+.videos-container {
+    background-color: black;
+    opacity: 0.85;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.videos-h1 {
+    margin: 3rem 0 4rem;
+    font-family: montserrat, sans-serif;
+    font-size: 3rem;
+}
+.music-vids {
+    margin: 3rem 0 2rem;
+}
+
 
 
 /* footer */
 footer {
-    /* position: absolute;
-    width: 100%;
-    bottom: 0; */
     background-color: black;
     text-align: center;
     opacity: 0.85;
