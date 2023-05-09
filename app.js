@@ -3,33 +3,44 @@ const express = require("express");
 const app = express();
 const https = require("https");
 const path = require("path");
+const ejs = require("ejs"); 
+
+app.set("view engine", "ejs");
 
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.urlencoded());
+app.use(express.static("public"));
 
 
 
 
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/home.html");
+    res.render("home");
 });
 
 
 app.get("/shows", function (req, res) {
-    res.sendFile(__dirname + "/shows.html")
+    res.render("shows");
 });
 
 app.get("/contact", function (req, res) {
-    res.sendFile(__dirname + "/contact.html")
+    res.render("contact");
 });
 
 app.get("/videos", function(req, res) {
-    res.sendFile(__dirname + "/videos.html")
+    res.render("videos");
 });
 
 app.get("/music", function (req, res) {
-    res.sendFile(__dirname + "/music.html")
+    res.render("music");
+});
+
+app.get("/biography", function (req, res) {
+    res.render("biography");
+});
+
+app.get("", function (req, res) {
+    res.render("")
 });
 
 app.listen("3000", function() {

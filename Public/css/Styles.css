@@ -87,14 +87,22 @@ ul {
     left: 13%;
 }
 
-/* videos */
-.videos-container {
+
+/* commonalities */
+.standard-container {
     background-color: black;
     opacity: 0.85;
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: center;
 }
+.standard-h1 {
+    margin: 3rem 0 4rem;
+    font-family: montserrat, sans-serif;
+    font-size: 3rem;
+}
+
+/* videos */
 .videos-h1 {
     margin: 3rem 0 4rem;
     font-family: montserrat, sans-serif;
@@ -104,6 +112,23 @@ ul {
     margin: 3rem 0 2rem;
 }
 
+/* biography */
+.bio-pic {
+    width: 500px;
+    height: auto;
+}
+.member-pic {
+    max-width: 300px;
+    height: auto;
+}
+.bio-row {
+    padding: 3rem 0;
+    text-align: center;
+}
+.bio-col {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* footer */

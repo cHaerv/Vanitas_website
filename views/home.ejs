@@ -1,0 +1,26 @@
+<%- include('partials/header') -%>
+
+<div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="9000">
+            <video autoplay muted loop src="/images/mvLoopCropped.mp4" type="video/mp4"
+                class="carousel-image"></video>
+        </div>
+        <div class="carousel-item card" data-bs-interval="6000">
+            <div class="card-img-overlay">
+                <button class="btn btn-outline-light btn-lg merch-button hidden">Order Merch</button>
+            </div>
+            <img src="/images/tShirtCarousel.png" class="carousel-image" alt="vanitas-merch">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<%- include('partials/footer') -%>
