@@ -1,3 +1,4 @@
+const { log } = require("console");
 const express = require("express");
 const app = express();
 const https = require("https");
@@ -17,18 +18,19 @@ app.get("/", function(req, res) {
 
 app.get("/shows", function (req, res) {
     res.sendFile(__dirname + "/shows.html")
-})
+});
 
 app.get("/contact", function (req, res) {
     res.sendFile(__dirname + "/contact.html")
-})
+});
 
 app.get("/videos", function(req, res) {
     res.sendFile(__dirname + "/videos.html")
 });
 
-
-
+app.get("/music", function (req, res) {
+    res.sendFile(__dirname + "/music.html")
+});
 
 app.listen("3000", function() {
     console.log("server is running on port 3000");

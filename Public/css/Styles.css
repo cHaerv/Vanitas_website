@@ -53,7 +53,10 @@ ul {
 }
 @media all and (max-width: 992px) {
     .navbar-brand { position: relative;}
-    .icons-nav {position: relative;}
+    .icons-nav {position: relative; }
+}
+@media all and (max-width: 1366px) {
+    .icons-nav {display: none;}
 }
 
 
