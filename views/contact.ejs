@@ -1,40 +1,43 @@
 <%- include('partials/header') -%>
 
-<div class="container standard-container">
+  <div class="container standard-container">
     <div class="row">
-        <div class="col">
-            <h1 class="standard-h1">Contact Us</h1>
-        </div>
+      <div class="col">
+        <h1 class="standard-h1">Contact Us</h1>
+      </div>
     </div>
     <div class="row">
-        <div class="col">
-            <h3 >For bookings please contact us at <a href="management@vanitasband.com">management@vanitasband.com</a></h3>
-            <h3>Managed by Dark North Media, contact at <a href="management@vanitasband.com">canty@darknorthmedia.com</a></h3>
-        </div>
+      <div class="col">
+        <h3>For bookings please email us at <strong>@vanitasband.com</strong></h3>
+        <h3>Managed by Dark North Media, contact at <strong>management@vanitasband.com</strong>
+        </h3>
+      </div>
     </div>
-
-    <form action="/" method="post">
-        <img class="mb-4" src="images/iconWhite.png" alt="">
+    <div class="row">
+      <form action="/" method="post" class="mailchimp-form">
+        <img class="mb-4 bottom-logo" src="images/iconWhite.png" alt="">
         <h1 class="h3 mb-3 fw-normal">Sign up to Vanitas' Newsletter!</h1>
-    
+
         <div class="form-floating">
-            <input type="text" class="form-control top" placeholder="first Name" name="fName">
-          </div>
+          <input type="text" class="form-control top" placeholder="first Name" name="fName">
+        </div>
         <div class="form-floating">
           <input type="text" class="form-control middle" placeholder="Last Name" name="lName">
         </div>
         <div class="form-floating">
           <input type="email" class="form-control bottom" placeholder="yourname@example.com" name="email">
         </div>
-    
         <div class="checkbox mb-3">
           <label>
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me Up!</button>
+        <button class="w-100 btn btn-lg btn-outline-light" type="submit">Sign me Up!</button>
       </form>
+    </div>
 
-</div>
 
-<%- include('partials/footer') -%>
+
+  </div>
+
+  <%- include('partials/footer') -%>

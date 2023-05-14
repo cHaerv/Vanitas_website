@@ -47,6 +47,12 @@ app.get("/epk", function (req, res) {
     res.render("epk");
 });
 
+app.get("/news", function (req, res) {
+    res.render("news");
+});
+
+
+
 app.listen("3000", function() {
     console.log("server is running on port 3000");
 });

@@ -194,6 +194,16 @@ ul {
     font-size: 1.5rem;
 }
 
+/* contact */
+
+.mailchimp-form {
+    max-height: auto;
+    max-width: 50%;
+    margin-left: 25%;
+    padding-bottom: 2rem;
+}
+
+
 /* footer */
 footer {
     background-color: black;
