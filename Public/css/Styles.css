@@ -136,6 +136,11 @@ ul {
     padding: 1rem;
 }
 
+/* music  */
+.eventum-artwork {
+    max-width: 25%;
+    max-height: auto;
+}
 
 /* videos */
 .music-vids {
@@ -202,6 +207,8 @@ ul {
     margin-left: 25%;
     padding-bottom: 2rem;
 }
+
+
 
 
 /* footer */
