@@ -39,8 +39,12 @@ app.get("/biography", function (req, res) {
     res.render("biography");
 });
 
-app.get("", function (req, res) {
-    res.render("")
+app.get("/music", function (req, res) {
+    res.render("music");
+});
+
+app.get("/epk", function (req, res) {
+    res.render("epk");
 });
 
 app.listen("3000", function() {

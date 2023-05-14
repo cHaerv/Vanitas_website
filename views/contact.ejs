@@ -13,6 +13,28 @@
         </div>
     </div>
 
+    <form action="/" method="post">
+        <img class="mb-4" src="images/iconWhite.png" alt="">
+        <h1 class="h3 mb-3 fw-normal">Sign up to Vanitas' Newsletter!</h1>
+    
+        <div class="form-floating">
+            <input type="text" class="form-control top" placeholder="first Name" name="fName">
+          </div>
+        <div class="form-floating">
+          <input type="text" class="form-control middle" placeholder="Last Name" name="lName">
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control bottom" placeholder="yourname@example.com" name="email">
+        </div>
+    
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign me Up!</button>
+      </form>
+
 </div>
 
 <%- include('partials/footer') -%>
