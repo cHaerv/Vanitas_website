@@ -236,6 +236,13 @@ ul {
 .bio-padding-p {
     padding-top: 2rem;
 }
+/* press */
+
+.press-carousel {
+    padding: 3rem;
+    min-height: 300px;
+}
+
 
 /* contact */
 

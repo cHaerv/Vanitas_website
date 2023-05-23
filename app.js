@@ -45,8 +45,8 @@ app.get("/epk", function (req, res) {
     res.render("epk");
 });
 
-app.get("/news", function (req, res) {
-    res.render("news");
+app.get("/press", function (req, res) {
+    res.render("press");
 });
 
 
