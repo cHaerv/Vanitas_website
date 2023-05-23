@@ -137,7 +137,7 @@ ul {
 }
 .hide {
     opacity: 0;
-    filter: blur(6px);
+    filter: blur(4px);
     transform: translateX(-100%);
     transition: all 1s;
 }
