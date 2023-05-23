@@ -81,6 +81,10 @@ ul {
     .icons-nav {
         display: none;
     }
+    .promo-pic-two {
+        min-width: 100%;
+        height: auto;
+    }
 }
 
 
@@ -131,10 +135,19 @@ ul {
     font-family: montserrat, sans-serif;
     font-size: 3rem;
 }
+.standard-h2 {
+    font-family: montserrat, sans-serif;
+    margin: 2rem 0 2rem;
+}
+.standard-h3 {
+    margin: 1rem 0 1rem;
+}
 .standard-icon {
     color: white;
     padding: 1rem;
 }
+
+
 .hide {
     opacity: 0;
     filter: blur(4px);
@@ -147,11 +160,20 @@ ul {
     transform: translateX(0);
 
 }
+.promo-pic {
+    width: 100%;
+    height: auto;
+}
+.promo-pic-two {
+    width: 50%;
+    height: auto;
+}
 
 /* music  */
 .eventum-artwork {
-    max-width: 40%;
+    max-width: 50%;
     max-height: auto;
+    margin-bottom: 2rem;
 }
 
 .spotify-song {
@@ -164,10 +186,7 @@ ul {
 }
 
 /* biography */
-.bio-pic {
-    width: 100%;
-    height: auto;
-}
+
 
 .bio-row {
     max-width: 100%;
@@ -224,6 +243,19 @@ ul {
     padding-bottom: 2rem;
 }
 
+/* EPK */
+.epk-text {
+    text-align: left;
+    margin-top: 40%;
+}
+.eventum-artwork-two {
+    max-width: 100%;
+    max-height: auto;
+    margin-bottom: 2rem;
+}
+.icon-epk {
+    font-size: 3rem;
+}
 
 
 
@@ -242,6 +274,5 @@ footer {
 }
 
 .footer-text {
-    color: white;
     padding: 1rem;
 }
