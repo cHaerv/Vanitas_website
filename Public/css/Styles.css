@@ -135,11 +135,27 @@ ul {
     color: white;
     padding: 1rem;
 }
+.hide {
+    opacity: 0;
+    filter: blur(6px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.reveal {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
 
 /* music  */
 .eventum-artwork {
-    max-width: 25%;
+    max-width: 40%;
     max-height: auto;
+}
+
+.spotify-song {
+    margin: 8rem 0 8rem;
 }
 
 /* videos */
