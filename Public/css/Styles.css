@@ -50,60 +50,7 @@ ul {
     list-style: none;
 }
 
-/* navbar dropdown on hover */
-@media all and (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: none;
-    }
 
-    .navbar .nav-item:hover .nav-link {}
-
-    .navbar .nav-item:hover .dropdown-menu {
-        display: block;
-    }
-
-    .navbar .nav-item .dropdown-menu {
-        margin-top: 0;
-    }
-}
-
-@media all and (max-width: 992px) {
-    .navbar-brand {
-        position: relative;
-    }
-
-    .icons-nav {
-        position: relative;
-    }
-    .big-vid {
-        height: 315px;
-    }
-    .music-vids {
-        height: 270px;
-    }
-    
-    
-}
-
-@media all and (max-width: 1366px) {
-    .icons-nav {
-        display: none;
-    }
-    .promo-pic-two {
-        min-width: 100%;
-        height: auto;
-    }
-    #carousel-press-one {
-        min-height: 500px;
-    }
-    #carousel-press-two {
-        min-height: 500px;
-        
-    }
-    .custom-row {
-        height: 1000px;
-    }
-}
 
 
 /* home page */
@@ -279,6 +226,7 @@ ul {
     background-color: black;
     color: white;
 } */
+
 .custom-row {
     min-height: 500px;
 }
@@ -316,4 +264,63 @@ footer {
 
 .footer-text {
     padding: 1rem;
+}
+
+/* media queries */
+/* navbar dropdown on hover */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .navbar-brand {
+        position: relative;
+    }
+
+    .icons-nav {
+        position: relative;
+    }
+    .big-vid {
+        height: 315px;
+    }
+    .music-vids {
+        height: 270px;
+    }
+    
+    
+}
+
+@media all and (max-width: 1366px) {
+    .icons-nav {
+        display: none;
+    }
+    .promo-pic-two {
+        min-width: 100%;
+        height: auto;
+    }
+    #carousel-press-one {
+        min-height: 500px;
+    }
+    #carousel-press-two {
+        min-height: 500px;
+        
+    }
+    .custom-row {
+        height: 1000px;
+    }
+    .epk-text {
+        margin-top: 1rem;
+    }
 }
