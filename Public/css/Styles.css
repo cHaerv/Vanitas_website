@@ -246,16 +246,20 @@ ul {
 
 /* contact */
 
-.mailchimp-form {
+/* .mailchimp-form {
     max-height: auto;
     max-width: 50%;
     margin-left: 25%;
     padding-bottom: 2rem;
-}
+} */
 /* .mailchimp-input {
     background-color: black;
     color: white;
 } */
+.custom-row {
+    min-height: 500px;
+}
+
 
 /* EPK */
 .epk-text {
