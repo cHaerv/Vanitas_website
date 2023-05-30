@@ -19,3 +19,5 @@ nodemon app.js
 ```
 
 head to localHost:3000 the console should log "server is running on port 3000" if successful
+
+dependancies node modules=  express, ejs, path, https and console
