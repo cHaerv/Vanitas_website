@@ -75,6 +75,14 @@ ul {
     .icons-nav {
         position: relative;
     }
+    .big-vid {
+        height: 315px;
+    }
+    .music-vids {
+        height: 270px;
+    }
+    
+    
 }
 
 @media all and (max-width: 1366px) {
@@ -84,6 +92,16 @@ ul {
     .promo-pic-two {
         min-width: 100%;
         height: auto;
+    }
+    #carousel-press-one {
+        min-height: 500px;
+    }
+    #carousel-press-two {
+        min-height: 500px;
+        
+    }
+    .custom-row {
+        height: 1000px;
     }
 }
 
@@ -183,6 +201,11 @@ ul {
 /* videos */
 .music-vids {
     margin: 3rem 0 2rem;
+    max-width: 100%;
+}
+.big-vid {
+    aspect-ratio: 16/9;
+    max-width: 100%;
 }
 
 /* biography */
