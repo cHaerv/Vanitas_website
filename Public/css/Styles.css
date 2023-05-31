@@ -216,20 +216,20 @@ ul {
 
 /* contact */
 
-/* .mailchimp-form {
+.mailchimp-form {
     max-height: auto;
     max-width: 50%;
     margin-left: 25%;
     padding-bottom: 2rem;
 } */
-/* .mailchimp-input {
+ .mailchimp-input {
     background-color: black;
     color: white;
-} */
+}
 
 .custom-row {
-    min-height: 500px;
-}
+    min-height: 300px;
+} 
 
 
 /* EPK */
@@ -246,6 +246,14 @@ ul {
     font-size: 3rem;
 }
 
+/* failure */
+.custom-row-two {
+    min-height: 500px;
+} 
+.fail-btn {
+    margin-top: 3rem;
+    max-width: 50%;
+}
 
 
 /* footer */
