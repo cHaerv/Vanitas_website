@@ -1,6 +1,6 @@
 # Vanitas band's official Site
 
-install Nodemon if you have'nt already. 
+install Nodemon if you haven't already. 
 
 ```
 npm install -g nodemon 
